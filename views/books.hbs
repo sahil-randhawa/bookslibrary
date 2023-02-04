@@ -1,0 +1,21 @@
+<h1 style="text-align:center;">Books</h1>
+<div style="display:flex; justify-content:space-between;">
+  <form action="/books" method="POST">
+    <input type="text" id="searchtext" name="searchtext"/>
+    <button>Search</button></form>
+  <form action="/books" method="POST">
+    <span>Filter results:</span>
+    <select name="filterbooks" id="filterbooks">
+      <option value="">-</option>
+      <option value="showall">Show All</option>
+      <option value="available">All Available</option>
+      <option value="mybooks">My books</option>
+    </select>
+    <button>Filter</button>
+  </form>
+</div>
+{{#each booksLibrary}}
+    <div style="border:1px dashed black;margin:10px 0; padding:5px 20px 15px;background-color:white;">
+        {{>book}}
+    </div>
+{{/each}}
