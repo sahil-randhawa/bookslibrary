@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            font-family:Arial, Helvetica, sans-serif;
+            background: #ebe9ff;
+        }
+        header{
+            background-color: darkslateblue;
+        }
+        header > div{
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: auto;
+            color: white;
+            align-items: center;
+        }
+        header a > p {
+            font-size: 20px;
+            font-weight: 800;
+        }
+        header a {
+            text-decoration: none;
+            color: white;
+        }
+        nav > ul > li{
+            margin:10px 40px;
+            margin-right: 0;
+            list-style-type: none;
+        }
+        ul {
+            display: flex;
+        }
+        main{
+            width: 1000px;
+            margin: 20px auto;
+        }
+        button{
+            padding: 5px 15px;
+            border: 0;
+            background-color: darkslateblue;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .checkedbyuser{
+            color: rgb(65, 35, 255);
+            font-style: italic;
+        }
+        .onloan{
+            color: red;
+            font-style: italic;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+
+        <a href="/"><p>Mapleview Public Library</p></a>
+        <nav>
+            <ul>
+                <li><a href="/books">Books</a></li>
+                <li><a href="#">Branches</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>        
+        </div>
+
+    </header>
+    <main>
+        {{!-- main content here --}}
+        {{{body}}}
+    </main>
+</body>
+</html>
