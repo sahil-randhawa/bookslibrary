@@ -1,0 +1,14 @@
+<p><strong>{{ this.bookTitle}}</strong></p>
+<p>by: {{ this.bookAuthor}}</p>
+{{#if this.available}}
+<form action="/books" method="POST">
+  <input type="checkbox" name="borrow" value="{{this.bookTitle}}">
+  <Button>Borrow</Buttton>
+  </form>
+{{else}}
+    {{#if checkedByUser}}
+        <label class="checkedbyuser">Checked out by you</label>
+    {{else}}
+        <label class="onloan">On Loan</label>
+    {{/if}}
+{{/if}}
