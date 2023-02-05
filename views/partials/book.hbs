@@ -2,7 +2,7 @@
 <p>by: {{ this.bookAuthor}}</p>
 {{#if this.available}}
 <form action="/books" method="POST">
-  <input type="checkbox" name="borrow" value="{{this.bookTitle}}">
+  <input type="checkbox" name="borrow" value="{{this.bookTitle}}" checked hidden>
   <Button>Borrow</Buttton>
   </form>
 {{else}}
