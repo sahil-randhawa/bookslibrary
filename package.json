@@ -2,9 +2,8 @@
   "name": "assignment_1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,8 +12,5 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^6.0.7"
-  },
-  "devDependencies": {
-    "nodemon":"^2.0.20"
   }
 }
