@@ -26,7 +26,7 @@ app.engine(
 );
 app.set("view engine", ".hbs");
 
-// boooks array
+// books array
 const booksLibraryArray = [
   {
     bookTitle: "The Alchemist",
