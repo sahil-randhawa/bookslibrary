@@ -15,6 +15,7 @@ Live demo: https://bookslibrary.cyclic.app/
 
 ### Features:
 - Semantic templates
+- HTTP request methods
 - Web forms
 - Real time database response update
 - Form field validation using vanila javascript.
