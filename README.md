@@ -4,7 +4,8 @@ Library App built with Node JS and Express
 
 Live demo: https://bookslibrary.cyclic.app/
 
-**Goal**: To demonstrate the usage and functionality of express and handlebars library.
+**Goal**: 
+To demonstrate the usage and functionality of express and handlebars library.
 
 ### Built using:
 - HTML/CSS
