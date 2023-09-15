@@ -1,10 +1,10 @@
 # bookslibrary
 
-Library App build with Node JS and Express
+Library App built with Node JS and Express
 
 Live demo: https://bookslibrary.cyclic.app/
 
-**Goal**: To demonstrate the usae and functionality of express and handlebars library.
+**Goal**: To demonstrate the usage and functionality of express and handlebars library.
 
 ### Built using:
 - HTML/CSS
@@ -17,7 +17,7 @@ Live demo: https://bookslibrary.cyclic.app/
 - Semantic templates
 - REST / HTTP request methods
 - Web forms
-- Real time database response update
-- Form field validation using vanila javascript.
+- Real-time database response update
+- Form field validation using vanilla javascript.
 - CSS Grids for responsive layout
 - Semantic HTML structure.
